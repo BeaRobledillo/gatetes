@@ -1,0 +1,279 @@
+
+html {
+
+}
+
+body{background-repeat: no-repeat;
+font-family: 'Varela Round', sans-serif; /*fuentes de las letras de la web de google fonts*/
+
+}
+
+img{border-radius:25px; 
+}
+
+
+h4{color:rgba(245, 83, 94, 1);}
+
+h1, h3 {font-weight:700;
+text-align: center;
+font-size:60px;}
+
+#cssmenu{font-family: font-family: 'Cookie', cursive; }
+#cssmenu{text-align: center;}
+#cssmenu ul { margin: 0; padding: 0;}
+#cssmenu li { margin: 0; padding: 0;}
+#cssmenu a { margin: 0; padding: 0;}
+#cssmenu ul {list-style: none;}
+#cssmenu a {text-decoration: none;}
+#cssmenu {height: 70px; background-color: rgb(35,35,35); box-shadow: 0px 2px 3px rgba(0,0,0,.4);}
+#cssmenu{border-radius:20px;}
+
+#cssmenu > ul > li {
+ float: left;
+ margin-left: 15px;
+ position: relative;
+ 
+}
+
+#cssmenu > ul > li > a {
+ color: rgb(205,44,36);
+ font-family: 'Varela Round', sans-serif;
+ font-size: 15px;
+ line-height: 70px;
+ padding: 15px 20px;
+ transition: color .15s;
+ text-align: center;
+}
+
+#cssmenu > ul > li > a:hover {color: rgb(250,250,250); }
+
+
+#cssmenu > ul > li > ul {
+ opacity: 0;
+ visibility: hidden;
+ padding: 16px 0 20px 0;
+ background-color: rgb(250,250,250);
+ text-align: left;
+ position: absolute;
+ top: 55px;
+ left: 50%;
+ margin-left: -90px;
+ width: 180px;
+ box-shadow: 0px 1px 3px rgba(0,0,0,.4);
+  
+}
+
+#cssmenu > ul > li:hover > ul {
+ opacity: 1;
+ top: 65px;
+ visibility: visible;
+}
+
+#cssmenu > ul > li > ul:before{
+ content: '';
+ display: block;
+ border-color: transparent transparent rgb(250,250,250) transparent;
+ border-style: solid;
+ border-width: 10px;
+ position: absolute;
+ top: -20px;
+ left: 50%;
+ margin-left: -10px;
+}
+
+#cssmenu > ul ul > li { position: relative;}
+
+#cssmenu ul ul a{
+ color: rgb(50,50,50);
+ font-family: font-family: 'Cookie', cursive;
+ font-size: 13px;
+ background-color: rgb(250,250,250);
+ padding: 5px 8px 7px 16px;
+ display: block;
+ transition: background-color .1s;
+}
+
+#cssmenu ul ul a:hover {background-color: rgb(240,240,240);}
+
+
+#cssmenu ul ul ul {
+ visibility: hidden;
+ opacity: 0;
+ position: absolute;
+ top: -16px;
+ left: 206px;
+ padding: 16px 0 20px 0;
+ background-color: rgb(250,250,250);
+ text-align: left;
+ width: 160px;
+
+}
+
+
+#cssmenu ul ul > li:hover > ul { opacity: 1; left: 196px; visibility: visible;}
+
+
+#cssmenu ul ul a:hover{
+ background-color: rgb(205,44,36);
+ color: rgb(240,240,240);
+}
+
+
+
+ 	
+.titulo{text-align:center;
+z-index: auto;
+font-size:40px;
+color:black;
+background-color:rgba(245, 83, 94, 1); 
+padding:3px;
+border-radius:150px;
+width:80%;
+height:90px;
+}
+
+.cabecera{text-align:center;
+color: black;
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+background-size: cover;
+position: relative;
+background-color:rgba(250,250,250,0.5);
+border:solid rgba(245, 83, 94, 1) 5px;
+border-radius: 25px;
+ } 
+ 
+.parrafoCentral{
+font-style:solid black ;
+position: relative;
+text-align: center;
+background-color:rgba(250,250,250,0.5);
+padding:5px;
+border-radius:20px;
+
+}    
+
+.copyleft{
+font-weight: bold;
+position: relative;
+align-content: center;
+text-align: center;
+background-color:rgba(245, 83, 94, 1);
+border-radius:20px;
+margin: inherit;
+}
+ #marco{
+ 	font-weight: bold;
+ 	 color: pink;
+width:1000px;
+  margin:10px auto 10px auto; /* Centrado horizontal */
+ }
+
+.cabecera2{color:black;
+border:solid pink 3px;
+border-radius: 25px;
+ padding:5px;}
+ 
+ #cuerpo {
+ 	text-align: justify;
+  padding:10px 0 10px 0;
+  overflow-x:hidden;
+  overflow-y:auto; /* Hace que se ajuste a la columna más alta en ff */
+  height:100%; /* Hace que se ajuste a la columna más alta  en ie6 */
+ }
+
+ #columna_derecha {
+  float:right; /* Alineación a la derecha */
+  width:270px;
+  border:solid pink 1px;
+  padding:10px;
+  text-align:justify;
+ }
+ 
+ #columna_izquierda {
+  float:left; /* Alineación a la izquierda */
+  width:170px;
+  border:solid pink 1px;
+  padding:10px;
+  text-align:justify;
+  }
+ 
+ #columna_central {
+  margin-left:200px; /* Espacio para la columna izquierda */
+  margin-right:300px; /* Espacio para la columna derecha */
+  border:solid pink 1px;
+  padding:10px;
+  text-align:justify;
+  }
+ 
+ /*Pie de página*/
+ #pie { 
+  border:solid pink 1px;
+  padding:10px;
+  text-align:center;
+  font-size:80%;
+ }	
+ 
+.contacto{
+	text-align: center;
+	align-content: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-color:rgba(250,250,250,0.5);
+			padding:20px;
+			border-radius:25px;
+			text-align: center;
+			font-weight:300;
+			margin: 10%;
+			width:70%;
+			} 
+ 
+.portadaPaises{padding:1%;
+border-radius: 25px;
+background-image:url(../imagenes/IMG-20140517-WA0111.jpg);
+width: 50%;
+color:rgba(245, 83, 94, 1);
+}
+
+.parrafosPaises{text-align:justify;
+align-content: center;
+color: black;
+}
+
+
+iframe{border-radius:25px; }
+
+
+
+.caja1 {
+border:1px;		
+position: relative; 
+width:95%;
+float:right; 
+overflow: hidden;
+background-color: rgb(35,35,35);
+  } 
+
+.pagoda{background-color:rgba(245, 83, 94, 1);
+align-content: center;
+text-align: center;
+align-items: center;
+border-radius:100px;
+width:15%;
+
+}
+
+
+.ulGastro{color:black;}
+
+.acercade{margin:120px;
+backface-visibility: visible;
+background-repeat: no-repeat;
+background-size: cover;position: relative;
+	background-color:rgba(250,250,250,0.5);
+			padding:10px;
+			border-radius:25px;
+			
+
+}
